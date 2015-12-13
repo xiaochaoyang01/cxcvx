@@ -7,7 +7,8 @@
 //
 
 #import "dsfsViewController.h"
-
+#import "AFNetworking.h"
+#import "UIImageView+WebCache.h"
 @interface dsfsViewController ()
 
 @end
