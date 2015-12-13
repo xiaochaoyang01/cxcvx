@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		605752631C1D16BC00D9FA32 /* dsfsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 605752621C1D16BC00D9FA32 /* dsfsViewController.m */; };
 		606758AA1C1D0F37003BFF12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 606758A91C1D0F37003BFF12 /* main.m */; };
 		606758AD1C1D0F37003BFF12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 606758AC1C1D0F37003BFF12 /* AppDelegate.m */; };
 		606758B01C1D0F37003BFF12 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 606758AF1C1D0F37003BFF12 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		605752611C1D16BC00D9FA32 /* dsfsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dsfsViewController.h; sourceTree = "<group>"; };
+		605752621C1D16BC00D9FA32 /* dsfsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dsfsViewController.m; sourceTree = "<group>"; };
 		606758A51C1D0F37003BFF12 /* dsf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dsf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		606758A91C1D0F37003BFF12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		606758AB1C1D0F37003BFF12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				606758AC1C1D0F37003BFF12 /* AppDelegate.m */,
 				606758AE1C1D0F37003BFF12 /* ViewController.h */,
 				606758AF1C1D0F37003BFF12 /* ViewController.m */,
+				605752611C1D16BC00D9FA32 /* dsfsViewController.h */,
+				605752621C1D16BC00D9FA32 /* dsfsViewController.m */,
 				606758B11C1D0F37003BFF12 /* Main.storyboard */,
 				606758B41C1D0F37003BFF12 /* Assets.xcassets */,
 				606758B61C1D0F37003BFF12 /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				606758B01C1D0F37003BFF12 /* ViewController.m in Sources */,
 				606758AD1C1D0F37003BFF12 /* AppDelegate.m in Sources */,
+				605752631C1D16BC00D9FA32 /* dsfsViewController.m in Sources */,
 				606758AA1C1D0F37003BFF12 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +504,7 @@
 				606758D41C1D0F37003BFF12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		606758D51C1D0F37003BFF12 /* Build configuration list for PBXNativeTarget "dsfTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				606758D71C1D0F37003BFF12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		606758D81C1D0F37003BFF12 /* Build configuration list for PBXNativeTarget "dsfUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				606758DA1C1D0F37003BFF12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
